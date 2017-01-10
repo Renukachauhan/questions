@@ -1,0 +1,199 @@
+1.*Absolute Path:-
+***A path is either relative or absolute. An absolute path always contains the root element and the complete directory list required to locate the file.
+ For example, /home/sally/statusReport is an absolute path. All of the information needed to locate the file is contained in the path string.
+***Absolute path is the full directory such as C:\XyzWs\test.txt. 
+ 
+ **Relative Path:-
+ Relative path is relative to the directory you are in, so if you are in the above directory, 
+ then if you reference file test.txt as relative, it assumes the same directory you are in.
+ When you do ../ then it goes back one directory.
+ 
+ A relative path needs to be combined with another path in order to access a file. For example, joe/foo is a relative path. 
+ Without more information, a program cannot reliably locate the joe/foo directory in the file system.
+ 
+ 
+ 2.CSS Introduction - 
+
+CSS stands for Cascading Style Sheets. CSS describes how HTML elements are to be displayed on screen, paper,
+ or in other media. CSS saves a lot of work. It can control the layout of multiple web pages all at once.
+ 
+ 
+ CSS is the language for describing the presentation of Web pages, including colors, layout, and fonts.
+ It allows one to adapt the presentation to different types
+ of devices, such as large screens, small screens, or printers. CSS is independent of HTML and can be used with any XML-based markup language.
+ 
+ Cascading Style Sheets (CSS) is a style sheet language used for describing the presentation of a document written in a markup language.
+ 
+ 3.How can we bold a text using CSS?
+ <strong>bold</strong>
+ 
+4.]How can we change the format and color of text using CSS?
+ *** <p style="font-family:Courier; color:Blue; font-size: 20px;">This text has the font Courier, is Blue, and 20px.</p>
+  
+  ***p.normal {
+    font-style: normal;
+    
+}
+
+p.italic {
+    font-style: italic;
+}
+
+p.oblique {
+    font-style: oblique;
+}
+</style>
+</head>
+<body>
+
+<p class="normal">This is a paragraph, normal.</p>
+<p class="italic">This is a paragraph, italic.</p>
+<p class="oblique">This is a paragraph, oblique.</p>
+
+
+5.Interpreter	                                                               Compiler
+*Translates program one statement at a time.         *	Scans the entire program and translates it as a whole into machine code.
+ 
+ 6.The Lifetime of JavaScript Variables:-
+The lifetime of a JavaScript variable starts when it is declared.
+
+Local variables are deleted when the function is completed.
+
+Global variables are deleted when you close the page.
+
+7.Unit testing is the testing of single entity (class or method).
+ Unit testing is very essential to every software company to give a quality product to their customers.
+ 
+ JUnit is a unit testing framework for Java programming language. JUnit has been important in the development of test-driven development,
+ and is one of a family of unit testing frameworks collectively known as xUnit, that originated with JUnit.
+
+ 
+ 8. How many tags you have used in CSS?
+ <a>,<h> etc
+ 
+ 
+ 
+9. What is JavaScript?
+JavaScript is an interpreted programming or script language from Netscape
+JavaScript is the programming language of HTML and the Web. JavaScript is easy to learn.
+an object-oriented computer programming language commonly used to create interactive effects within web browsers
+
+
+
+10. What is scope in javascript?
+Scope refers to where variables and functions are accessible, and in what context it is being executed. 
+Basically, a variable or function can be defined in a global or local scope.
+ Variables have so-called function scope, and functions have the same scope as variables.
+
+ 
+ 
+ 11. How many types of scope are there in JavaScript?
+ (a)Local JavaScript Variables
+Variables declared within a JavaScript function, become LOCAL to the function.
+
+Local variables have local scope: They can only be accessed within the function.
+
+Example
+// code here can not use carName
+
+function myFunction() {
+    var carName = "Volvo";
+
+    // code here can use carName
+
+}
+(2)Global JavaScript Variables
+A variable declared outside a function, becomes GLOBAL.
+
+A global variable has global scope: All scripts and functions on a web page can access it. 
+
+Example
+var carName = " Volvo";
+
+// code here can use carName
+
+function myFunction() {
+
+    // code here can use carName 
+
+}
+(3)Automatically Global
+If you assign a value to a variable that has not been declared, it will automatically become a GLOBAL variable.
+
+This code example will declare a global variable carName, even if the value is assigned inside a function.
+
+Example
+myFunction();
+
+// code here can use carName 
+
+function myFunction() {
+    carName = "Volvo";
+}
+Try it Yourself »
+
+(4)
+12. What is rootscope?
+*$rootScope refers to an object which is accessible from everywhere of the application. 
+*$rootScope is a parent scope of all $scope and can be shared to all $scope. One application can have only one $rootScope.
+You can think $rootScope as global variable and $scope as local variables.
+
+
+
+13. How we can find the length of an array?
+**string_name.length()
+**String car [];
+System.out.println(car.length);
+**You need to initialize it first, and then you can use .length:
+
+String car[] = new String[] { "BMW", "Bentley" };
+System.out.println(car.length);
+
+
+
+14. How a specific position array can be fetched from array? int n[4]={12,3,2,34};printf("Element[%d] = %d\n",n[2] );
+   
+15. "5"+2+7 what will be the output?
+527
+16. 2+"8" what will be the output?
+28
+17. What is the length of a String,char, int?
+
+
+18. Tell me about your project?
+
+
+19. What is angularjs?
+Angular JS is an open source JavaScript framework that is used to build web applications. It can be freely used, changed and shared by anyone.
+Angular Js is developed by Google.
+It is an excellent framework for building single phase applications and line of business applications.
+
+Advantage of AngularJS
+
+There are a lot of JavaScript frameworks for building web applications. So, it is a genuine question, why to use Angular JS.
+
+Following are the advantages of AngularJS over other JavaScript frameworks:
+*Great for SPA (Single-Page Applications)
+*Dependency Injection: Dependency Injection specifies a design pattern in which components are given their dependencies instead of hard coding them within 
+the component.
+*Two way data binding: AngularJS creates a two way data-binding between the select element and the orderProp model. orderProp is then used as the input for
+ the orderBy filter.
+*Testing: Angular JS is designed in a way that we can test right from the start. So, it is very easy to test any of its components through unit testing and
+ end-to-end testing.
+*Model View Controller: In Angular JS, it is very easy to develop application in a clean MVC way. You just have to split your application code into MVC 
+components i.e. Model, View and the Controller.
+*Directives, filters, modules, routes etc.
+
+
+20. What is JQuery?
+jQuery is a fast, small, and feature-rich JavaScript library. It makes things like HTML document
+traversal and manipulation, event handling, animation, and Ajax much 
+simpler with an easy-to-use API that works across a multitude of browsers.
+
+The purpose of jQuery is to make it much easier to use JavaScript on your website.
+
+
+21. What is better AngularJS or JQuery explain with example?
+JQuery is best suited for DOM manipulation while AngularJS is suited for web application development.
+ So when you are looking to develop robust applications, then opt for AngularJS and in order to
+ add more functionality and to perform DOM manipulation on the website, then stick with jQuery.
